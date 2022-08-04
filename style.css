@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    background-color: whitesmoke;
+}
+.lys{
+    background-color: white;
+    box-shadow: 2px 2px 4px 
+    black;
+}
+
+#logo
+{
+    display: inline-block;
+    margin-left: 8%;
+    width: 8%;
+    height: 8;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+h1
+{
+    display: inline-block;
+    Font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size:4rem;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 5%;
+    color: goldenrod;
+	text-shadow: 2px 2px 4px 
+black;
+}
+h2{
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    text-align: center;
+    margin-top: 5%;
+}
+nav{
+    margin: 1%;
+    border-radius: 15px;
+    color: white;
+}
+.basket{
+    margin-left: 60%;
+    color: cadetblue;
+}
+.heart{
+    margin-left: 3%;
+    color: cadetblue;
+}
+.cards{
+    margin-left: 2%;
+}
+.card-img-top{
+    height: 80%;
+    width: auto;
+}
+.carousel-item{
+    height: 650px;
+}
+.presentation{
+    Font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+footer{
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 1%;
+}
+
+@media screen and (max-width:767.98px){
+    h1
+    {
+        display: inline-block;
+        Font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+        font-size:2.2rem;
+        font-weight: normal;
+        text-align: center;
+        margin-left: 1%;
+        color: goldenrod;
+	    text-shadow: 2px 2px 4px 
+    black;
+    }
+    h2{
+        font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+        text-align: center;
+        margin-top: 1%;
+        color: goldenrod;
+    }
+    #logo
+    {
+        display: inline-block;
+        margin-left: 45%;
+        width: 10%;
+        height: 10%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .carousel-item{
+        width: 100%;
+        height: auto;
+    }
+    article{
+        margin: 3%;
+    }
+    .basket{
+        margin-left: 3%;
+    }
+    .presentation{
+        Font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+    footer{
+        font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+        font-size: 1rem;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+        font-size: small;
+    }
+    .cards{
+        margin-left: auto;
+    }
+}
+
+
+
+
+
+
+
