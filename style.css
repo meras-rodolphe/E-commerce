@@ -2,6 +2,13 @@
 body{
     background-color: whitesmoke;
 }
+.hot{
+    background-color: whitesmoke;
+    background-image: url(image/hotel-paris.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
 .lys{
     background-color: white;
     box-shadow: 2px 2px 4px 
@@ -33,7 +40,7 @@ black;
 h2{
     font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 nav{
     margin: 1%;
@@ -41,7 +48,7 @@ nav{
     color: white;
 }
 .basket{
-    margin-left: 60%;
+    margin-left: 30%;
     color: cadetblue;
 }
 .heart{
@@ -69,11 +76,46 @@ footer{
     font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     font-size: 2rem;
     text-align: center;
-    text-shadow: 2px 2px 2px black;
     margin-top: 1%;
 }
+.shop{
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    padding: 2%;
+}
+#submit{
+    background-color: cadetblue;
+    color: azure;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.connexion{
+    width: 30%;
+    height: auto;
+    background-color: rgba(224, 229, 229, 0.542);
+    text-align: center;
+    color:whitesmoke;
+    font-size: 1.5rem;
+    margin-left: 34.8%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 3px 5px 2px black;
+}
+
 
 @media screen and (max-width:767.98px){
+    .hot{
+        background-color: whitesmoke;
+    }
     h1
     {
         display: inline-block;
@@ -90,7 +132,6 @@ footer{
         font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
         text-align: center;
         margin-top: 1%;
-        color: goldenrod;
     }
     #logo
     {
@@ -128,7 +169,46 @@ footer{
     .cards{
         margin-left: auto;
     }
+    .connexion{
+        width: 80%;
+        height: auto;
+        background-color: rgba(224, 229, 229, 0.542);
+        text-align: center;
+        color:whitesmoke;
+        font-size: 1.5rem;
+        margin-left: 10%;
+        margin-top: 1%;
+        margin-bottom: 25%;
+        padding: 1%;
+        border-radius: 20px;
+        box-shadow: 3px 5px 2px black;
+    }
+    .since{
+        width: 95%;
+        text-align: center;
+    }
 }
+@media screen and (max-width:364.98px){
+    .connexion{
+        width: 90%;
+        height: auto;
+        background-color: rgba(224, 229, 229, 0.542);
+        text-align: center;
+        color:whitesmoke;
+        font-size: 1.5rem;
+        margin-left: 5%;
+        margin-top: 1%;
+        margin-bottom: 25%;
+        padding: 1%;
+        border-radius: 20px;
+        box-shadow: 3px 5px 2px black;
+    }
+    .since{
+        width: 95%;
+        text-align: center;
+    }
+}
+
 
 
 
